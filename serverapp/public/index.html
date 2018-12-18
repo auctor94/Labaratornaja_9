@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Work with NodeJS</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-type" content="text/html; charset = utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Montserrat" rel="stylesheet"> 
+    <script src="../js/javascript.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+</head>
+<body class="subpage">
+		<div id="page-wrapper">
+				<div id="header-wrapper">
+					<header id="header" class="container">
+						<div class="row">
+							<div class="12u">
+								<!-- Logo -->
+									<h1><a href="#" id="logo">Работа в NodeJS и FS</a></h1>
+							</div>
+						</div>
+					</header>
+				</div>
+			<!-- Content -->
+				<div id="content-wrapper">
+					<div id="content">
+						<div class="container">
+							<div class="row">
+								<div class="12u" id="12u">
+									<!-- Main Content -->
+										<section>
+                                                <table id="myTable" width="100%">
+                                                        <tbody>
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        <tr>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                         <td></td>
+                                                        </tr>
+                                                      
+                                                        </tbody>
+                                                      </table>
+
+                                                      <input id="but1" type="button" class="button" value="Создание массива и заполение таблицы им" />
+                                                      <input id="but2" type="button" class="button" value="Отсортировать массив" />
+                                                      <p><select id="sel1">
+                                                            <option value="1" id="elemId">1 знак</option>
+                                                            <option value="2" id="elemId">2 знака</option>
+                                                            <option value="3" id="elemId">3 знака</option>
+                                                            <option value="4" id="elemId">4 знака</option>
+                                                            <option value="5" id="elemId">5 знаков</option>
+                                                           </select></p>
+                                                      <table id="myTable2" width="100%">
+                                                            <tbody>
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            <tr>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                             <td></td>
+                                                            </tr>
+                                                          
+                                                            </tbody>
+                                                          </table>
+                                                      <script>
+                                                            var socket = io.connect('http://localhost:8080');
+                         socket.on('message', function(message) {
+                                  alert('Что-то там : ' + message);
+                                 })
+                                                    
+                                 $('#but1').click(function () {
+                                      console.log('#but1');
+                                   socket.emit('my other event', { my: 'data' });
+                                  socket.emit('readmassiv', { my: 'data' });
+                                })
+                                socket.on('massiv',function () {
+console.log("запись произведена успешно.");
+                                })
+                                 socket.on('massiv2',function (data) {
+createTable(data);
+                                })
+                                $('#but2').click(function () {
+                                    socket.emit('readmassiv2');
+                                })
+                                socket.on('massiv3',function (data) {
+createTable2(data);
+})
+
+
+                                
+
+                                                        </script>
+                                                    </section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+                            &copy; Andronovich Timofei. All rights reserved.</a>
+					</footer>
+				</div>
+		</div>
+	</body>
+</html>

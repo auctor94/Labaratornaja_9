@@ -1,0 +1,10 @@
+{
+    "name": "nodesapp",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "jasmine-node": "^1.16.2"
+    }
+}
